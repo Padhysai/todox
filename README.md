@@ -1,6 +1,6 @@
 <div align="center">
 
-![TodoX Banner](resources/banner.png)
+![TodoX Banner](https://raw.githubusercontent.com/Padhysai/todox/main/resources/banner.png)
 
 # 📋 TodoX
 
@@ -52,7 +52,7 @@ pip install todox
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/todox.git
+git clone https://github.com/Padhysai/todox.git
 cd todox
 pip install -e .
 ```
@@ -93,7 +93,7 @@ todox list --all
 todox ui
 ```
 
-![TUI Screenshot](resources/tui_screenshot.png)
+![TUI Screenshot](https://raw.githubusercontent.com/Padhysai/todox/main/resources/tui_screenshot.png)
 
 ---
 
@@ -182,7 +182,7 @@ todox edit 3       # Opens editor with task notes
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/todox.git
+git clone https://github.com/Padhysai/todox.git
 cd todox
 
 # Create virtual environment
@@ -251,6 +251,6 @@ Built with:
 
 Made with ❤️ for developers who love the terminal
 
-[Report Bug](https://github.com/yourusername/todox/issues) • [Request Feature](https://github.com/yourusername/todox/issues)
+[Report Bug](https://github.com/Padhysai/todox/issues) • [Request Feature](https://github.com/Padhysai/todox/issues)
 
 </div>

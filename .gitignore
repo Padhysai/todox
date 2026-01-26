@@ -157,4 +157,4 @@ test_*.json
 .pypirc
 
 # Publishing
-.PUBLISHING.md
+PUBLISHING.md
