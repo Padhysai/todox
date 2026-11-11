@@ -98,9 +98,14 @@ def list_todos(
 @app.command()
 def done(todo_id: int):
     data = load()
+    found = False
     for t in data["todos"]:
         if t["id"] == todo_id:
             t["done"] = True
+            found = True
+    if not found:
+        console.print(f"[red]Task {todo_id} not found[/red]")
+        raise typer.Exit(code=1)
     save(data)
     console.print(f"[bold green]Marked {todo_id} as done[/bold green]")
 
